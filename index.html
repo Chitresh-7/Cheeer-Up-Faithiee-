@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cheer Up Faithiee 💖</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Welcome Section -->
+        <section id="welcome">
+            <h1>Welcome, Faithiee! 💕</h1>
+            <p>You are safe here. This is your happy place!<br>
+                Whenever tres makes you mad(which i hope is rare😜) You can come here and relax your mind,<br> Imagine me apologizing with puppy eyes,<br> and forgive me....Pretty please?🥺
+               </p>
+            <button onclick="scrollToSection('safe-place')">Enter Safe Place</button>
+        </section>
+         
+        <section id="music-section">
+            <h2>Relaxing Songs For You🎵</h2>
+            
+            <!-- Song 1 -->
+            <div class="song">
+                <img src="https://www.dropbox.com/scl/fi/9lvi09301jfhpnck8s9hq/IMG_20250328_115154.jpg?rlkey=mzdsl8w2chg2742wcykfq5qqw&raw=1" alt="Time Flows Ever Onward" class="song-image">
+                 <h4>Time Flows Ever Onward</h4>
+                <audio id="song1">
+                    <source src="https://www.dropbox.com/scl/fi/c1qsx8zmrpto2ad3chvp2/time-flows-ever-onward_KuLEVSce.mp3?rlkey=ahzi9d4dljrli0ui5npvbfeti&raw=1" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <div class="song-buttons">
+                    <button class="play-button" onclick="playAudio('song1')">Play</button>
+                    <button class="pause-button" onclick="pauseAudio('song1')">Pause</button>
+                </div>
+            </div>
+        
+            <!-- Song 2 -->
+            <div class="song">
+                <img src="https://dl.dropboxusercontent.com/scl/fi/pzrkaitcuaq3tlzn5fv7t/fcb5f3575f91b7d4febb65f8e0b67cb8.jpg?rlkey=s2qlipop6ly02ncd88rbb8has&st=f86i52z3" alt="Dance With Me-Beabadoobee" class="song-image">
+                <h4>Dance With Me-Beabadoobee</h4>
+                <audio id="song2">
+                    <source src="https://www.dropbox.com/scl/fi/8v0qjz8imc9d2dwc1433z/Dance-with-Me-LoFi.mp3?rlkey=qsramuhhw31dmx6m0rnm6ouf4&raw=1" type="audio/mpeg">
+                </audio>
+                <div class="song-buttons">
+                    <button class="play-button" onclick="playAudio('song2')">Play</button>
+                    <button class="pause-button" onclick="pauseAudio('song2')">Pause</button>
+                </div>
+            </div>
+        
+            <!-- Song 3 -->
+            <div class="song">
+                <img src="https://dl.dropboxusercontent.com/scl/fi/7f2topcdulxvhmqmqor48/12577b2fc164a94bbe990730e1200977.jpg?rlkey=3sky2g5j173nk87izsz3xrlaa&st=098yzzkd" alt="Tired-Beabadoobee" class="song-image">
+                <h4>Tired-Beabadoobee</h4>
+                <audio id="song3">
+                    <source src="https://www.dropbox.com/scl/fi/x4nzsv0vn0qwwxuexb403/Tired-Beabadoobee-Lofi-Cover.mp3?rlkey=cbi1krq4tnqs6gn1r4qv6uhm4&raw=1" type="audio/mpeg">
+                </audio>
+                <div class="song-buttons">
+                    <button class="play-button" onclick="playAudio('song3')">Play</button>
+                    <button class="pause-button" onclick="pauseAudio('song3')">Pause</button>
+                </div>
+            </div>
+        
+            <!-- Song 4 -->
+            <div class="song">
+                <img src="https://dl.dropboxusercontent.com/scl/fi/wvtxq0cadi2ahbz7diwyc/640x640.jpg?rlkey=nxmbkho9t22zlv2f8gtqavjaz&st=e04d8yow" alt="TILL MY HEARTACHES END-KZ Tandingan" class="song-image">
+                <h4>TILL MY HEARTACHES END-KZ Tandingan</h4>
+                <audio id="song4">
+                    <source src="https://www.dropbox.com/scl/fi/r6ufmkwa4qeeleyjro34k/TILL-MY-HEARTACHES-END-KZ-Tandingan-Lyrics.mp3?rlkey=k9wldfq3hg8ndivw5z5ygf9l9&raw=1" type="audio/mpeg">
+                </audio>
+                <div class="song-buttons">
+                    <button class="play-button" onclick="playAudio('song4')">Play</button>
+                    <button class="pause-button" onclick="pauseAudio('song4')">Pause</button>
+                </div>
+            </div>
+        
+            <!-- Song 5 -->
+            <div class="song">
+                <img src="https://dl.dropboxusercontent.com/scl/fi/k9hxsrqp448j7anzqtkg4/88aef0d01b1e62182ead6497f70c1aac.jpg?rlkey=aar7b7nftf3o3jv94m36pj972&st=s8cc2wxe" alt="Somewhere Only We Know" class="song-image">
+                <h4>Somewhere Only We Know</h4>
+                <audio id="song5">
+                    <source src="https://www.dropbox.com/scl/fi/j04toejn6od031knibmsc/Keane-Somewhere-Only-We-Know-Lyrics.mp3?rlkey=st6ivut50by25hiaqod3qbytf&raw=1" type="audio/mpeg">
+                </audio>
+                <div class="song-buttons">
+                    <button class="play-button" onclick="playAudio('song5')">Play</button>
+                    <button class="pause-button" onclick="pauseAudio('song5')">Pause</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Safe Place Section -->
+        <section id="safe-place">
+            <h2>Safe Place 🏡</h2>
+            <p>This is a safe place for you faithiee, Whenever you feel down<br>stressed or overwhelmed you can come here,just relax, take one step at a time, dont be too hard on yourself, and i will always be here, believing in you,<br> I Love Youu Faithiee💕.</p>
+            <button onclick="scrollToSection('power-boost')">Next: Power Boost</button>
+        </section>
+
+        <!-- Power Boost Section -->
+        <section id="power-boost">
+            <h2>Power Boost ⚡</h2>
+            <p>Tap the button to get a random motivational message!</p>
+            <button onclick="showPowerBoost()">Tap Here</button>
+            <div id="boost-result"></div>
+            <button onclick="scrollToSection('virtual-hug')">Next: Virtual Hug</button>
+        </section>
+
+        <!-- Virtual Hug Section -->
+        <section id="virtual-hug">
+            <h2>Virtual Hug 🤗</h2>
+            <p>Tap for a warm hug!</p>
+            <button onclick="showHug()">Tap for Hug</button>
+            <div id="hug-result"></div>
+            <button onclick="scrollToSection('breathing')">Next: Breathing</button>
+        </section>
+
+        <!-- Breathing Section -->
+        <section id="breathing">
+            <!-- Add this in your HTML -->
+            
+            <h2>Breathing Exercise 🌬</h2>
+            <p>Tap below to start relaxing</p>
+            <div id="breathing-container">
+                
+            <img id="breathing-gif" src="https://media1.tenor.com/m/RDSvs33D41gAAAAC/milk-and-mocha-bears-sigh.gif" alt="Breathing Animation" width="200">
+            <button onclick="startBreathing()">Tap here to relax</button>
+            <div id="breathing-result"></div>
+            <button onclick="scrollToSection('affirmations')">Next: Affirmations</button>
+            
+            
+        </section>
+
+        <!-- Affirmation Section -->
+        <section id="affirmations">
+            <h2> All the Reasons Why You're Special To me, Faithiee 🌸</h2>
+            <p> You're loyal,<br>
+                You're devoted,<br>
+                You support me,<br>
+                You believe me,<br>
+                You Encourage me to chase my dreams,<br>
+                You make me laugh,<br>
+                You lift up my mood,<br>
+                You understand me,<br>
+                You always know how to comfort me,<br>
+               
+                You are thoughtful,<br>
+                You are full of love,<br>
+                I admire how much you believe in us,<br>
+                I love how you see a future with me,<br>
+                
+                How you're willing to wait.. ,<br>
+                
+                And how you make all the time and effort worth it,<br>
+                
+                You're deeply emotional and expressive,<br>
+                You helped me heal from past struggles,<br>
+                You Inspires me to work hard for the future,<br>
+                You makes me feel understood,<br>
+                
+                You encourages me to take care of myself,<br>
+                You never lets me feel alone,<br>
+                You sends sweet messages that make my day,<br>
+                You reassures me when i have doubts,<br>
+                
+                You calls me in cute ways,<br>
+                You're naturally adorable,<br>
+                You  have a beautiful smile,<br>
+                You have a good sense of humor,<br>
+                You have ability to make me blush just by texting,<br>
+                
+                You makes me want to be the best version of myself,<br>
+                
+                You supports my dreams and goals,<br>
+                You're forgiving when i make mistakes,<br>
+                You lovee spending time with me, even just texting,<br>
+                
+                You're emotionally intelligent,<br>
+                You makes me feel important,<br>
+                You are willing to wait for the right time to be with me.,<br>
+                
+                You loves me in a way that no one else ever could,<br><br><br>
+                So, after all this, if you ever wonder why I love you so much....  <br> well, just read this again! But don’t take too long, <br>because by the time you’re done, <br>I’ll probably have even more reasons to add. <br>I love you, my Faithie💖
+            </p>
+            <button onclick="scrollToSection('letter')">Next: Your Letter</button>
+        </section>
+
+        <!-- Letter Section -->
+        <!-- Letter Section -->
+    <section id="letter">
+        <h2>A Special Letter for You 💌</h2>
+        <p id="letter-message">Come back on April 2 before your exam for something special!</p>
+        <div id="countdown"></div>
+        
+        <!-- Letter container with animation -->
+        <div id="letter-container" class="hidden">
+            <div id="letter-content">
+                <p>Dear Faye,</p>
+                <p>[YOUR LETTER CONTENT WILL GO HERE ON APRIL 2]</p>
+            </div>
+        </div>
+    </section>  
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
