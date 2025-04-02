@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cheer Up Faithiee 💖</title>
     <link rel="stylesheet" href="styles.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" defer></script>
+    <script src="script.js" defer></script>
 </head>
 <body>
     <div class="container">
@@ -49,7 +53,7 @@
         
             <!-- Song 3 -->
             <div class="song">
-                <img src="https://dl.dropboxusercontent.com/scl/fi/7f2topcdulxvhmqmqor48/12577b2fc164a94bbe990730e1200977.jpg?rlkey=3sky2g5j173nk87izsz3xrlaa&st=098yzzkd" alt="Tired-Beabadoobee" class="song-image">
+                <img src="https://www.dropbox.com/scl/fi/zcnftrbnrmoz4jcqr69fn/18114e41a5bb1adcad3342efb72f5dcd.jpg?rlkey=vzwviddpcb8puhuctfdri9g0f&raw=1" alt="Tired-Beabadoobee" class="song-image">
                 <h4>Tired-Beabadoobee</h4>
                 <audio id="song3">
                     <source src="https://www.dropbox.com/scl/fi/x4nzsv0vn0qwwxuexb403/Tired-Beabadoobee-Lofi-Cover.mp3?rlkey=cbi1krq4tnqs6gn1r4qv6uhm4&raw=1" type="audio/mpeg">
@@ -85,6 +89,205 @@
                     <button class="pause-button" onclick="pauseAudio('song5')">Pause</button>
                 </div>
             </div>
+
+            <!-- Song 6 -->
+            <div class="song">
+                <img src="https://dl.dropboxusercontent.com/scl/fi/7f2topcdulxvhmqmqor48/12577b2fc164a94bbe990730e1200977.jpg?rlkey=3sky2g5j173nk87izsz3xrlaa&st=098yzzkd" alt="Glue Song-Beabadoobee" class="song-image">
+                <h4>Glue Song-Beabadoobee</h4>
+                <audio id="song6">
+                    <source src="https://www.dropbox.com/scl/fi/fdffb1hbew3b4nhovti3e/beabadoobee-Glue-Song-Official-Music-Video.mp3?rlkey=79z2bwt0c0kf886820fgwnyux&raw=1" type="audio/mpeg">
+                </audio>
+                <div class="song-buttons">
+                    <button class="play-button" onclick="playAudio('song6')">Play</button>
+                    <button class="pause-button" onclick="pauseAudio('song6')">Pause</button>
+                </div>
+            </div>
+
+            <!-- Song 7 -->
+            <div class="song">
+                <img src="https://www.dropbox.com/scl/fi/j8o48wtizbe1ktbottjaf/fb7c8d939a3f522cda1d081993227395.jpg?rlkey=jmlsrj57fwu2jbzcakz43uhp7&raw=1" alt="No One Knows-Laufey & Stephan Sanchez" class="song-image">
+                <h4>No One Knows-Laufey & Stephan Sanchez</h4>
+                <audio id="song7">
+                    <source src="https://www.dropbox.com/scl/fi/qojeb0cf7w0wici977eji/Stephen-Sanchez-Laufey-No-One-Knows-Lyric-Video.mp3?rlkey=l8s0hyldeclek31nfyo1amgi9&raw=1" type="audio/mpeg">
+                </audio>
+                <div class="song-buttons">
+                    <button class="play-button" onclick="playAudio('song7')">Play</button>
+                    <button class="pause-button" onclick="pauseAudio('song7')">Pause</button>
+                </div>
+            </div>
+            
+            <!-- Song 8 -->
+            <div class="song">
+                <img src="https://www.dropbox.com/scl/fi/5awiqk4pevkgkkvucibgv/30a3a8474a7982c89f8f44fbbf4dc2f6.jpg?rlkey=so5a1xqfbt5pyyx1nr8ruarsi&raw=1" alt="Let You Break My Heart Again-Laufey" class="song-image">
+                <h4>Let You Break My Heart Again-Laufey</h4>
+                <audio id="song8">
+                    <source src="https://www.dropbox.com/scl/fi/vp69jb3e6s88x0ukgs9qs/Let-You-Break-My-Heart-Again-Laufey-Philharmonia-Orchestra-Official-Audio.mp3?rlkey=q75nhlr3qn2fddcvo0uc7wvdx&raw=1" type="audio/mpeg">
+                </audio>
+                <div class="song-buttons">
+                    <button class="play-button" onclick="playAudio('song8')">Play</button>
+                    <button class="pause-button" onclick="pauseAudio('song8')">Pause</button>
+                </div>
+            </div>
+
+            <!-- Song 9 -->
+            <div class="song">
+                <img src="https://www.dropbox.com/scl/fi/l0sejhcy99uo1m16o4qg1/60b07ff17554439b1dbc1933a525174e.jpg?rlkey=qthj396rbcmn5m2ge65gzxzj5&raw=1" alt="Valentine-Laufey" class="song-image">
+                <h4>Valentine-Laufey</h4>
+                <audio id="song9">
+                    <source src="https://www.dropbox.com/scl/fi/u6uh9gik1qzlto5cuycum/Laufey-Valentine-Official-Audio.mp3?rlkey=n9ywq4mkrebjzxq975t5py9vu&raw=1" type="audio/mpeg">
+                </audio>
+                <div class="song-buttons">
+                    <button class="play-button" onclick="playAudio('song9')">Play</button>
+                    <button class="pause-button" onclick="pauseAudio('song9')">Pause</button>
+                </div>
+            </div>
+
+            <!-- Song 10 -->
+            <div class="song">
+                <img src="https://www.dropbox.com/scl/fi/owtlsgzzblsqyqdo702zz/ebf465fece4e97c324a6d321ccc63e18.jpg?rlkey=6wj7h0f1ei2dcpafb0lzybv33&raw=1" alt="From The Start-Laufey" class="song-image">
+                <h4>From The Start-Laufey</h4>
+                <audio id="song10">
+                    <source src="https://www.dropbox.com/scl/fi/lmtin5owkgwbf6cmn075o/Laufey-From-The-Start-Official-Music-Video.mp3?rlkey=fif6q5rmt0iyc10mbwuru9vgy&raw=1" type="audio/mpeg">
+                </audio>
+                <div class="song-buttons">
+                    <button class="play-button" onclick="playAudio('song10')">Play</button>
+                    <button class="pause-button" onclick="pauseAudio('song10')">Pause</button>
+                </div>
+            </div>
+
+            <!-- Song 11 -->
+            <div class="song">
+                <img src="https://www.dropbox.com/scl/fi/7z8z6duzhy7lw31i1f03n/97648dddeab17f535e8da7e29fd75335.jpg?rlkey=s2asnly6qtnpe07f9jtir0k5k&raw=1" alt="A Night To Remember- Laufey&Beabadoobee" class="song-image">
+                <h4>A Night To Remember- Laufey&Beabadoobee</h4>
+                <audio id="song11">
+                    <source src="https://www.dropbox.com/scl/fi/l9dxkcvwaf103o8t036si/beabadoobee-Laufey-A-Night-To-Remember-Official-Music-Video.mp3?rlkey=g7wc7rs4maejv8wls42r2ofhr&raw=1" type="audio/mpeg">
+                </audio>
+                <div class="song-buttons">
+                    <button class="play-button" onclick="playAudio('song11')">Play</button>
+                    <button class="pause-button" onclick="pauseAudio('song11')">Pause</button>
+                </div>
+            </div>
+
+            <!-- Song 12 -->
+            <div class="song">
+                <img src="https://www.dropbox.com/scl/fi/3v0wph5jyhio4ez668t6q/56cea4e9ee63e171f287b91c9b07772e.jpg?rlkey=tibirauihwyujd7gtaf6tnw77&raw=1" alt="sa Bawat Sandali-Ameil Sol" class="song-image">
+                <h4>Sa Bawat Sandali-Ameil Sol</h4>
+                <audio id="song12">
+                    <source src="https://www.dropbox.com/scl/fi/31pm439oiu62qr0ocx9dr/Sa-Bawat-Sandali-Amiel-Sol-Official-Music-Video.mp3?rlkey=4koiah34hirghoyuc4wgl9imw&raw=1" type="audio/mpeg">
+                </audio>
+                <div class="song-buttons">
+                    <button class="play-button" onclick="playAudio('song12')">Play</button>
+                    <button class="pause-button" onclick="pauseAudio('song12')">Pause</button>
+                </div>
+            </div>
+
+             <!-- Song 13 -->
+            <div class="song">
+                <img src="https://www.dropbox.com/scl/fi/awb6lsy2wztr6y79w5f5c/d359bda321ce9d064d2da9f796193641.jpg?rlkey=5c1dtmffe65xkcb3gasqlb36x&raw=1" alt="When I Met You" class="song-image">
+               
+                <h4> When I Met You</h4>
+                <audio id="song13">
+                    <source src="https://www.dropbox.com/scl/fi/8xoz886fycv7zmxuqxou8/When-I-Met-You.mp3?rlkey=nggi32bosxg1p55nzwf8irecg&raw=1" type="audio/mpeg">
+                </audio>
+                <div class="song-buttons">
+                    <button class="play-button" onclick="playAudio('song13')">Play</button>
+                    <button class="pause-button" onclick="pauseAudio('song13')">Pause</button>
+                </div>
+            </div>
+
+             <!-- Song 14 -->
+             <div class="song">
+                <img src="https://www.dropbox.com/scl/fi/zv2b6bo6zhu7bk1fstp29/22cb3108b0b20fbf5b779550db10f062.jpg?rlkey=mr15a731nvdq6677f2nuyt0v5&raw=1" alt="Misteryoso-Cup Of joe" class="song-image">
+                <h4>Misteryoso-Cup Of joe</h4>
+                <audio id="song14">
+                    <source src="https://www.dropbox.com/scl/fi/6t2i2n899r2wuqzvd6m43/Cup-of-Joe-Misteryoso-Lyrics.mp3?rlkey=rdtn1o96skgkbutmm3megnb2d&raw=1" type="audio/mpeg">
+                </audio>
+                <div class="song-buttons">
+                    <button class="play-button" onclick="playAudio('song14')">Play</button>
+                    <button class="pause-button" onclick="pauseAudio('song14')">Pause</button>
+                </div>
+            </div>
+
+            <!-- Song 15 -->
+            <div class="song">
+                <img src="https://www.dropbox.com/scl/fi/f5bi07fn4who7rbw878as/dff4075f09d4811f8d2fa3c1c4afe03f.jpg?rlkey=0cu83t1dgefmld0or62xdgk06&raw=1" alt="Patuntunguhan-Cup of joe" class="song-image">
+                <h4>Patuntunguhan-Cup of joe</h4>
+                <audio id="song15">
+                    <source src="https://www.dropbox.com/scl/fi/k3szyyxm6g9dk9iv0jfgz/Cup-of-Joe-Patutunguhan-Lyrics.mp3?rlkey=750ow1ei9elqmtluash0290fd&raw=1" type="audio/mpeg">
+                </audio>
+                <div class="song-buttons">
+                    <button class="play-button" onclick="playAudio('song15')">Play</button>
+                    <button class="pause-button" onclick="pauseAudio('song15')">Pause</button>
+                </div>
+            </div>
+
+            <!-- Song 16 -->
+            <div class="song">
+                <img src="https://www.dropbox.com/scl/fi/gapym4y9ekv1vkmmwciw3/Screenshot_2025-03-31-16-09-38-703_com.pinterest.png?rlkey=ty96tac11xg04awu4rlcg27vz&raw=1" alt="Tingin-Cup of Joe" class="song-image">
+                <h4>Tingin-Cup of Joe</h4>
+                <audio id="song16">
+                    <source src="https://www.dropbox.com/scl/fi/14faj06kk4g4emvr1f0tp/Cup-of-Joe-Janine-Te-oso-Tingin-Lyrics.mp3?rlkey=8uhiz0ef5f38lowwykr6qla5b&raw=1" type="audio/mpeg">
+                </audio>
+                <div class="song-buttons">
+                    <button class="play-button" onclick="playAudio('song16')">Play</button>
+                    <button class="pause-button" onclick="pauseAudio('song16')">Pause</button>
+                </div>
+            </div>
+
+            <!-- Song 17 -->
+            <div class="song">
+                <img src="https://www.dropbox.com/scl/fi/lsaxew75114aypj2obgqq/d70475bad6ab1fdbd1c72af00acbfa04.jpg?rlkey=g7ansrnj8xsg3n3681qt9wex7&raw=1" alt="SEVENTEEN-Tribute" class="song-image">
+                <h4>SEVENTEEN-Tribute</h4>
+                <audio id="song17">
+                    <source src="https://www.dropbox.com/scl/fi/hu578yzrmbcslk4t2cwq0/mv-seventeen-adore-u_8fEsxuRA.mp3?rlkey=lqf8ym3zlagqzpnykiuah7j95&raw=1" type="audio/mpeg">
+                </audio>
+                <div class="song-buttons">
+                    <button class="play-button" onclick="playAudio('song17')">Play</button>
+                    <button class="pause-button" onclick="pauseAudio('song17')">Pause</button>
+                </div>
+
+          <div class="timestamps">
+                    <p>Select a song:</p>
+                    <button onclick="jumpTo(0)">🎵 SEVENTEEN Debut Song- Adore You</button>
+                    <button onclick="jumpTo(186)">🎵 SEVENTEEN Most Famous Song-SUPER </button>
+                    <button onclick="jumpTo(407)">🎵 SEVENTEEN Most Recent Song- Shohikigen</button>
+                </div>
+            </div>
+
+
+            <!-- Song 18 -->
+            <div class="song">
+                <img src="https://www.dropbox.com/scl/fi/kqdk2mvpv1ww1ghny2ipd/581fb05d960f1ff852ce4c5e71d64c7e.jpg?rlkey=rwnulxy0rba9u8nks11lcpu7u&raw=1" alt="Leftover-WONWOO" class="song-image">
+                <h4>Leftover-WONWOO</h4>
+                <audio id="song18">
+                    <source src="https://www.dropbox.com/scl/fi/mf1p8m0153hfg5oinft1a/WONWOO-SEVENTEEN-Leftover-Lyrics-Color-Coded-HanRomEng-ShadowByYoongi.mp3?rlkey=4mmhs7zp6esn6zdsac1ix0b7h&raw=1" type="audio/mpeg">
+                </audio>
+                <div class="song-buttons">
+                    <button class="play-button" onclick="playAudio('song18')">Play</button>
+                    <button class="pause-button" onclick="pauseAudio('song18')">Pause</button>
+                </div>
+            </div>
+
+             <!-- Song 19 -->
+             <div class="song">
+                <img src="https://www.dropbox.com/scl/fi/4amarss8hn0vbsqi5475y/Screenshot_2025-04-01-19-35-22-284_com.pinterest.png?rlkey=x51kgd59sczmy9kjzha9qo179&raw=1" alt="Bittersweet-WONWOO & MINGYU" class="song-image">
+                <h4>Bittersweet-WONWOO & MINGYU</h4>
+                <audio id="song19">
+                    <source src="https://www.dropbox.com/scl/fi/zwi3itxp2rt7o1g5ab56m/WONWOO-X-MINGYU-Bittersweet-feat.-LeeHi-Official-MV.mp3?rlkey=taax7cmx6om39tggte51c2s2k&raw=1" type="audio/mpeg">
+                </audio>
+                <div class="song-buttons">
+                    <button class="play-button" onclick="playAudio('song19')">Play</button>
+                    <button class="pause-button" onclick="pauseAudio('song19')">Pause</button>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
         </section>
 
         <!-- Safe Place Section -->
@@ -185,20 +388,57 @@
         <!-- Letter Section -->
         <!-- Letter Section -->
     <section id="letter">
-        <h2>A Special Letter for You 💌</h2>
-        <p id="letter-message">Come back on April 2 before your exam for something special!</p>
-        <div id="countdown"></div>
-        
-        <!-- Letter container with animation -->
-        <div id="letter-container" class="hidden">
-            <div id="letter-content">
-                <p>Dear Faye,</p>
-                <p>[YOUR LETTER CONTENT WILL GO HERE ON APRIL 2]</p>
+
+        <h3>The Letter Is Here,Faithiee💕</h3>
+        <div class="container">
+            <button class="open-btn">Open Letter</button>
+            
+            <div class="letter-container" id="letterContainer">
+                <div class="letter">
+                    <p>My Faithiee, My Lovee , My Babyy <br>I know I’ve made mistakes, and I’m truly sorry for letting my overthinking and jealousy get in the way😿. Sometimes I feel I am not good enough for you, you deserve better😞, but no there's no end in this relationship, and I can't see you with someone else, So I will be better for you, <br> You deserve someone who brings you peace, not stress—and I promise I will become better for you not just because I want to keep you, but because you deserve someone who lifts you <br><br>
+
+                        But yea no promises for perfection, I get jealous because I care for you and love you for who you are, and overthinking is also a part of me... You just have to accept this side of Tress too 😓
+                        
+                      <br><br>  So yea I won't make promise for perfection, nobody can be perfect, but I'll work on them, it won't be draining as that day,
+                        
+                        But I'll still need regular reassurance tho hahaha , but I promise it won't be as exhausting as that day..
+                        
+                       <br><br> I want to support you in every way I can, especially now when you have something important ahead of you. Your exam is coming up
+                        
+                        things feel overwhelming right now. Exams, responsibilities, and life problems it an sometimes feel like too much to But I want you to pause for a moment, take a deep breath,  and listen to what I have to say 
+                        
+                      <br><br>  You are stronger than you think, smarter than you believe, and more capable than you realize. The weight you feel on your shoulders isn’t there to break you faithiee— 
+                      it’s there to shape you. <br>As <b> Theodore Roosevelt </b>  once said, “Believe you can, and you're halfway there". <br>
+                        
+                       <b> Nelson Mandela </b>once said, “I never lose. I either win or learn."
+                        there’s no such thing as failure, only lessons.
+                        
+                       <br><br> If you ever start doubting yourself, remember this—there is someone in this world (me!)  who believes in you completely. And no matter what happens, no matter the results, I will always be proud of you my faithiee <br>
+                        
+                        I Love youu 4000times more than you know.. <br>
+                        
+                        and by the time you’re reading this, it’s probably around 5000—because my love for you just keeps growing. <br>
+
+                        
+                        Now go on and beat the exam.. When you enter the exam Hall, don't be scared, <br>
+                        
+                        Remember who you are, You are my <b> strong, capable, unstoppable , amazing Faithieee </b> 🌸 <br>
+                        
+                        
+                        ~ I love you , always ~</p>
+                    <button class="close-btn">Close</button>
+                </div>
             </div>
         </div>
+
+     
     </section>  
     </div>
 
-    <script src="script.js"></script>
+    <script src="script.js">
+
+    </script>
+    
+   
 </body>
 </html>
