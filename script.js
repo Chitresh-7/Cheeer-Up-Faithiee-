@@ -2,6 +2,16 @@
 function scrollToSection(sectionId) {
     document.getElementById(sectionId).scrollIntoView({ behavior: "smooth" });
 }
+
+function jumpTo(time) {
+    var audio = document.getElementById("song17");
+    audio.currentTime = time;
+    audio.play();
+}
+
+
+
+
    // Function to play audio
 function playAudio(id) {
     var audio = document.getElementById(id);
@@ -125,44 +135,10 @@ function startBreathing() {
 }
 
 
+document.querySelector(".open-btn").addEventListener("click", function() {
+    document.getElementById("letterContainer").classList.add("show");
+});
 
-// Open Letter with Animation
-function openLetter() {
-    document.getElementById("letter-content").classList.toggle("hidden");
-}
-// Countdown Timer for Letter Section
-function startCountdown() {
-    let targetDate = new Date("April 2, 2025 00:00:00").getTime();
-
-    let countdownInterval = setInterval(function () {
-        let now = new Date().getTime();
-        let timeLeft = targetDate - now;
-
-        let days = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
-        let hours = Math.floor((timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-        let minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
-        let seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
-
-        if (timeLeft < 0) {
-            clearInterval(countdownInterval);
-            document.getElementById("letter-message").innerHTML = "Your Special Letter is Here! 💌";
-            document.getElementById("countdown").style.display = "none";
-            
-            // Show letter with animation
-            let letterContainer = document.getElementById("letter-container");
-            letterContainer.classList.remove("hidden");
-            setTimeout(() => {
-                letterContainer.classList.add("show-letter");
-            }, 100); 
-            
-        } else {
-            document.getElementById("countdown").innerHTML = 
-    days + "d " + hours + "h " + minutes + "m " + seconds + "s left";
-        }
-    }, 1000);
-}
-
-// Start countdown on page load
-window.onload = function() {
-    startCountdown();
-};
+document.querySelector(".close-btn").addEventListener("click", function() {
+    document.getElementById("letterContainer").classList.remove("show");
+});
